@@ -1,0 +1,48 @@
+table, th, td {
+    border: 1px solid black;
+}
+
+table tbody tr th+td {
+	color:	red;
+}
+
+table tbody tr th+td+td+td {
+	color:	blue;
+}
+
+
+table tbody tr:first-child{
+	background-color:	lightgreen;
+}
+
+table tbody tr+tr+tr{
+	background-color:	lightgreen;
+}
+
+table tbody tr+tr+tr+tr+tr{
+	background-color:	lightgreen;
+}
+
+table tbody tr+tr{
+	background-color:	lightblue;
+}
+table tbody tr+tr+tr+tr{
+	background-color:	lightblue;
+}
+
+table tbody th {
+	font-weight:	normal;
+	font-style:		italic;
+}
+
+dt:hover + dd { 
+	background-color: purple;
+}
+
+form{
+    border: 1px solid black;
+}
+
+img {
+	float:	left;
+}
